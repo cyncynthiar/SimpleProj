@@ -1,9 +1,9 @@
 # SimpleProj
 Simple projects for personal use
 
-Issue: I needed a focus timer that would alert me even when i turned off my volume and I didnt want to dowload an app, and online websites would also be silent when my main volume was silened
+Issue: I needed a focus timer that would alert me, even when i turned off my computer's volume, and I didnt want to dowload an app, and online websites would also be silent when my main volume was silened.
 
-USE: program is run in the terminal in python depends on these modules: time, os, sys, osascript. Asks user for duration (in seconds) they would like the timer to have, and loops. AND 0 (zero) to exit from user. When alarm goes off the program will ensure the system's sound is on
+USE: program is run in the terminal in python depends on these modules: time, os, sys, osascript. Asks user for duration (in seconds) they would like the timer to have and runs the timer, and loops. EXIT LOOP user enters 0 (zero) to exit and end program. Also When alarm goes off the program will ensure the system's sound is on
 
 Options:
   change sound of alarm, in function "count_down" change os.system('afplay /System/Library/Sounds/Sosumi.aiff')
